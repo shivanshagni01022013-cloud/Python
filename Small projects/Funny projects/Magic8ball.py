@@ -20,9 +20,10 @@ answers = [
     "Yes, but it’s classified 🔒",
     "Why are you even asking me this? 🤷",
     "No, and now I’m judging you silently 👀"
+    "Obviously Yes"
 ]
 
-for i in range(1, 1000):
+for i in range(1, 1000+1):
     question()
     print(random.choice(answers))
-
+print("I am tired of doing this.")
